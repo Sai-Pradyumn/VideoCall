@@ -1,0 +1,87 @@
+.lobby{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+    animation: into 1.5s ease-in-out;
+}
+
+.lobby h1{
+    font-size: 40px;
+    -webkit-text-stroke: 1px #000;
+}
+
+.lobby form{
+    border: 2px solid #706f6f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(100, 100, 111, 0.185) 0px 7px 29px 0px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+}
+
+.lobby form .inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 20px;
+}
+
+.lobby form .inputs label{
+    font-size: 15px;
+}
+
+
+.lobby form .inputs input{
+    background-color: transparent;
+    border: 2px solid #9d9d9d;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 15px;
+    outline: none;
+    color: #dbdbdb;
+    transition: .3s;
+}
+
+.lobby form .inputs input:hover,
+.lobby form .inputs input:active,
+.lobby form .inputs input:focus{
+    border: 2px solid #dbdbdb;
+}
+
+
+hr{
+    width: 100%;
+    /* border: 1.3px solid #434242; */
+    border: 1.3px solid #706f6f7e;
+    height: 1px;
+    border-radius: 50%;
+}
+
+.lobby form button{
+    padding: 10px 30px;
+    background-color: #16181c;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    /* place-items: center; */
+    /* border: 2px solid #dbdbdb54; */
+}
+
+.lobby form button:hover{
+    background-color: #dbdbdb;
+    color: #16181c;
+}
